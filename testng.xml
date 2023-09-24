@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sample Suite">
+    <test name="setup" >
+        <classes>
+            <class name="WebSetting.SetUp"/>
+        </classes>
+    </test>
+    <test name="Training Test">
+<!-- Viewing Specialists Profile  Flow-->
+<!--        <classes>-->
+<!--        <class name="HomePage.HomePageTest"></class>-->
+<!--        <class name="SpecialistsPage.clickSpecialistsButtonFromList"></class>-->
+<!--        <class name="SpecialistsPage.SpecialistsPageTest"></class>-->
+<!--        <class name="SpecialistsPage.clickSpecialistsProfileButton"></class>-->
+<!--        <class name="SpecialistProfile.SpecialistProfileTest"></class>-->
+<!--        <class name="SpecialistProfile.ClickBookAppButton"></class>-->
+<!--        </classes>-->
+<!-- &ndash;&gt;-->
+        <!--  Clicking Book your first session Button Flow    -->
+<!--        <classes>-->
+<!--        <class name="HomePage.HomePageTest"></class>-->
+<!--        <class name="GooglePlay.clickGooglePlayButton"></class>-->
+<!--        <class name="GooglePlay.GooglePlayTest"></class>-->
+<!--        </classes>-->
+
+<!--        &lt;!&ndash;  Clicking Book your first session Button Flow    &ndash;&gt;-->
+<!--        <classes>-->
+<!--        <class name="HomePage.HomePageTest"></class>-->
+<!--        <class name="JoinAsSpecialistPopup.ClickJoinAsSpecialistButton"></class>-->
+<!--        <class name="JoinAsSpecialistPopup.JoinsAsSpecialistPopupTest"></class>-->
+<!--        </classes>-->
+
+<!--        &lt;!&ndash;  Clicking Intercom Button Flow    &ndash;&gt;-->
+<!--        <classes>-->
+<!--        <class name="Intercom.IntercomButtonTest"></class>-->
+<!--        </classes>-->
+
+<!--        &lt;!&ndash;  Viewing Blogs Flow    &ndash;&gt;-->
+<!--        <classes>-->
+<!--        <class name="Blogs.ClickBlogButton"></class>-->
+<!--        <class name="Blogs.BlogTest"></class>-->
+<!--        <class name="Blogs.ClickDetailsButton"></class>-->
+<!--        <class name="Blogs.ArticleTest"></class>-->
+<!--        </classes>-->
+
+<!--        &lt;!&ndash;  Search in Specialist Flow    &ndash;&gt;-->
+<!--       <classes>-->
+<!--        <class name="Search.SearchSenarioTest"></class>-->
+<!--        <class name="Search.ClickContactUsButton"></class>-->
+<!--        <class name="Search.SearchSenarioAfterClickTest"></class>-->
+<!--       </classes>&ndash;&gt;-->
+
+        <!--  Subscription Flow    -->
+            <classes>
+            <class name="JoinFamcareCommunity.JoinFamcareTest"></class>
+            <class name="JoinFamcareCommunity.SubscriptionSuccessfullyTest"></class>
+            </classes>
+    </test>
+<!--    <test name="tear down" >-->
+<!--        <classes>-->
+<!--            <class name="WebSetting.TearDown"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite> <!-- Suite -->
